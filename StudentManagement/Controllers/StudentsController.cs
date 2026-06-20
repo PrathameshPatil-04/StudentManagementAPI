@@ -8,6 +8,7 @@ using System.Security.Claims;
 
 namespace StudentManagement.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class StudentsController : ControllerBase
